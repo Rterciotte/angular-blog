@@ -2,14 +2,14 @@
     <div class="small-card-container-content">
         <div class="small-card-photo">
             <img 
-                src="https://images.brickset.com/sets/large/3177-1.jpg" 
+                src="{{photoCover}}" 
                 alt="lego beatles star wars"
                 height="250px"
                 
             >
         </div>
         <div class="small-card-title">
-        <h1><a href="#">Ideias de veículos montados com lego!</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
         </div>
     </div>
 </div>
